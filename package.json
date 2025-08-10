@@ -9,11 +9,24 @@
     "test": "ng test"
   },
   "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "printWidth": 80,
+    "endOfLine": "lf",
     "overrides": [
       {
         "files": "*.html",
         "options": {
-          "parser": "angular"
+          "parser": "angular",
+          "printWidth": 120
+        }
+      },
+      {
+        "files": "*.component.ts",
+        "options": {
+          "printWidth": 100
         }
       }
     ]
