@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="303mm" height="216mm" viewBox="0 0 1143.78 814.56" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Tríptico - Un mundo sin guerras es posible</title>
+  
+  <!-- Definiciones -->
+  <defs>
+    <style>
+      .title-font { font-family: 'Montserrat', Arial, sans-serif; font-weight: 900; }
+      .body-font { font-family: 'Source Sans Pro', Arial, sans-serif; }
+      .crop-mark { fill: black; }
+      .fold-guide { stroke: #ccc; stroke-width: 0.5; opacity: 0.3; }
+    </style>
+    
+    <!-- Gradiente para overlay de la portada -->
+    <linearGradient id="coverOverlay" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:black;stop-opacity:0.6" />
+      <stop offset="50%" style="stop-color:black;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:black;stop-opacity:0.7" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Área de sangrado (fondo blanco) -->
+  <rect width="100%" height="100%" fill="white"/>
+  
+  <!-- Marcas de corte -->
+  <g class="crop-marks">
+    <!-- Esquina superior izquierda -->
+    <rect x="11.34" y="0" width="18.9" height="1.42" class="crop-mark"/>
+    <rect x="0" y="11.34" width="1.42" height="18.9" class="crop-mark"/>
+    
+    <!-- Esquina superior derecha -->
+    <rect x="1113.54" y="0" width="18.9" height="1.42" class="crop-mark"/>
+    <rect x="1142.36" y="11.34" width="1.42" height="18.9" class="crop-mark"/>
+    
+    <!-- Esquina inferior izquierda -->
+    <rect x="11.34" y="813.14" width="18.9" height="1.42" class="crop-mark"/>
+    <rect x="0" y="784.32" width="1.42" height="18.9" class="crop-mark"/>
+    
+    <!-- Esquina inferior derecha -->
+    <rect x="1113.54" y="813.14" width="18.9" height="1.42" class="crop-mark"/>
+    <rect x="1142.36" y="784.32" width="1.42" height="18.9" class="crop-mark"/>
+  </g>
+  
+  <!-- Guías de plegado -->
+  <g class="fold-guides">
+    <line x1="385.26" y1="11.34" x2="385.26" y2="803.22" class="fold-guide"/>
+    <line x1="758.52" y1="11.34" x2="758.52" y2="803.22" class="fold-guide"/>
+  </g>
+  
+  <!-- Área de contenido (sin sangrado) -->
+  <g transform="translate(11.34, 11.34)">
+    
+    <!-- Panel izquierdo (información + QR) -->
+    <g id="panel-left">
+      <rect x="0" y="0" width="373.92" height="791.88" fill="white" stroke="#f0f0f0" stroke-width="1"/>
+      
+      <!-- Texto de información -->
+      <foreignObject x="30" y="60" width="313" height="400">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Source Sans Pro', Arial, sans-serif; font-size: 13pt; line-height: 1.5; color: #444; text-align: justify;">
+          Esta revista "Un mundo sin guerras es posible" explica por qué podemos estar seguros de que la paz mundial es posible y pronto será una realidad.
+        </div>
+      </foreignObject>
+      
+      <!-- Código QR -->
+      <image x="166.96" y="500" width="150.75" height="150.75" xlink:href="data:image/png;base64,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"/>
+      
+      <!-- Texto del QR -->
+      <foreignObject x="50" y="670" width="273" height="100">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Source Sans Pro', Arial, sans-serif; font-size: 10pt; color: #666; text-align: center; line-height: 1.4;">
+          Escanee el código para leer la revista<br/>en formato digital en JW.org
+        </div>
+      </foreignObject>
+    </g>
+    
+    <!-- Panel central (anzuelo) -->
+    <g id="panel-center">
+      <rect x="373.92" y="0" width="373.92" height="791.88" fill="#f9f9f9" stroke="#f0f0f0" stroke-width="1"/>
+      
+      <!-- Texto del anzuelo -->
+      <foreignObject x="404" y="300" width="313" height="400">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Source Sans Pro', Arial, sans-serif; font-size: 14pt; line-height: 1.6; color: #333; text-align: justify;">
+          ¿Se imagina un mundo sin guerras? La Biblia explica por qué, pese a los esfuerzos humanos, aún no se han erradicado. También muestra que pronto habrá paz mundial. ¿Le gustaría saber cómo?
+        </div>
+      </foreignObject>
+    </g>
+    
+    <!-- Panel derecho (portada) -->
+    <g id="panel-right">
+      <!-- Imagen de fondo con efecto lápiz -->
+      <image x="747.84" y="0" width="373.92" height="791.88" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAJYCAYAAABM7LCIAAAHb0lEQVR4Ae3BQQGAABACMCTM9W+oGeS97bm7NwDwUwMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADAoAGAQQMAgwYABg0ADBoAGDQAMGgAYNAAwKABgEEDAIMGAAYNAAwaABg0ADBoAGDQAMCgAYBBAwCDBgAGDQAMGgAYNAAwaABg0ADA4AMZ0wYhq8Gk1AAAAABJRU5ErkJggg==" preserveAspectRatio="xMidYMid slice"/>
+      
+      <!-- Overlay oscuro -->
+      <rect x="747.84" y="0" width="373.92" height="791.88" fill="url(#coverOverlay)"/>
+      
+      <!-- Contenido de la portada -->
+      <g transform="translate(785, 120)">
+        <!-- Título principal -->
+        <text x="150" y="60" text-anchor="middle" fill="white" font-family="Montserrat, Arial, sans-serif" font-weight="900" font-size="24pt" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">
+          <tspan x="150" dy="0">Un mundo</tspan>
+          <tspan x="150" dy="30">sin guerras</tspan>
+        </text>
+        
+        <!-- Línea subrayada -->
+        <rect x="100" y="130" width="100" height="6" fill="#ffd700"/>
+        
+        <!-- Énfasis final -->
+        <text x="150" y="180" text-anchor="middle" fill="#ffd700" font-family="Montserrat, Arial, sans-serif" font-weight="900" font-size="26pt" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">
+          ES POSIBLE
+        </text>
+        
+        <!-- Subtítulo -->
+        <text x="150" y="250" text-anchor="middle" fill="white" font-family="Source Sans Pro, Arial, sans-serif" font-weight="600" font-size="12pt" style="text-shadow: 1px 1px 3px rgba(0,0,0,0.8);">
+          <tspan x="150" dy="0">Descubra por qué la paz mundial</tspan>
+          <tspan x="150" dy="18">está más cerca</tspan>
+        </text>
+      </g>
+    </g>
+    
+  </g>
+</svg>
