@@ -8,6 +8,10 @@ export const routes: Routes = [
     component: CounterPageComponent,
   },
   {
+    path: '',
+    component: CounterPageComponent,
+  },
+  {
     path: 'hero',
     component: HeroPageComponent,
   },
